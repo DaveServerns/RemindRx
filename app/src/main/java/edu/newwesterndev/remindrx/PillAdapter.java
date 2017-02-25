@@ -42,6 +42,7 @@ public class PillAdapter extends BaseAdapter{
     public View getView(int position, View convertView, ViewGroup parent) {
         TextView textView = new TextView(context);
         textView.setText(daysOfTheWeek.get(position));
+        textView.setTextSize(50);
 
         return textView;
     }

@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SundayActivity" />
+        <activity android:name=".MondayActivity" />
+        <activity android:name=".TuesdayActivity" />
+        <activity android:name=".WednesdayActivity" />
+        <activity android:name=".ThursdayActivity" />
+        <activity android:name=".FridayActivity" />
+        <activity android:name=".SaturdayActivity"></activity>
     </application>
 
 </manifest>
