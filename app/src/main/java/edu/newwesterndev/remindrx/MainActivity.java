@@ -12,6 +12,7 @@ import java.util.ArrayList;
 public class MainActivity extends Activity {
 
     View parentLayout;
+    ArrayList<String> daysOfWeek;
     String message = "message key";
 
     @Override
@@ -23,7 +24,7 @@ public class MainActivity extends Activity {
 
         GridView pillDayList = (GridView) findViewById(R.id.pillDayList);
 
-        final ArrayList<String> daysOfWeek = new ArrayList<>();
+        daysOfWeek = new ArrayList<>();
         daysOfWeek.add("Sunday");
         daysOfWeek.add("Monday");
         daysOfWeek.add("Tuesday");
